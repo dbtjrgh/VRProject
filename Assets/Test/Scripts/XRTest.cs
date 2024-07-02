@@ -27,4 +27,21 @@ public class XRTest : MonoBehaviour
         print($"{args.interactableObject.transform.name}" +
            $"´Â {args.interactorObject.transform.parent.name} ¿¡°Ô ¼±ÅÃÇØÁ¦µÊ.");
     }
+
+    public void ActivateEvent(BaseInteractionEventArgs args)
+    {
+        if(args.GetType() == typeof(ActivateEventArgs))
+        {
+            print("»§");
+        }
+        else if(args.GetType() == typeof(DeactivateEventArgs))
+        {
+            print("ÂûÄ¬");
+        }
+        else
+        {
+            print("");
+        }
+        
+    }
 }
