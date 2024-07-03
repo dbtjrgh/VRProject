@@ -984,7 +984,7 @@
                     "path": "<XRController>{LeftHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "BButton",
                     "isComposite": false,
                     "isPartOfComposite": false

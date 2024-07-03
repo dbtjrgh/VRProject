@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
 // 컨트롤러 입력에 추가 액션을 하도록 만드는 컴포넌트
-// [RequireComponent(typeof(ActionBasedController))]
+[RequireComponent(typeof(ActionBasedController))]
 public class XRCustomController : MonoBehaviour
 {
     public ActionBasedController targetCont;
@@ -14,8 +14,6 @@ public class XRCustomController : MonoBehaviour
     public InputActionReference AButton; // A 버튼
     public InputActionReference BButton; // B 버튼
     private ControllerAnimation contAnim;
-
-
 
     private IEnumerator Start()
     {
@@ -35,18 +33,13 @@ public class XRCustomController : MonoBehaviour
             contAnim.TriggerActivate(context.performed);
         };
 
-        AButton.action.performed += delegate (InputAction.CallbackContext abutton)
-        {
-            contAnim.AbuttonActivate(abutton.performed);
-        };
-
-        AButton.action.canceled += delegate (InputAction.CallbackContext abutton)
-        {
-            contAnim.AbuttonActivate(abutton.performed);
-        };
-
         selectRef.action.performed += contAnim.BumperActivate;
         selectRef.action.canceled += contAnim.BumperActivate;
-    }
 
+        AButton.action.performed += contAnim.AbuttonActivate;
+        AButton.action.canceled += contAnim.AbuttonActivate;
+
+        BButton.action.performed += contAnim.BbuttonActivate;
+        BButton.action.canceled += contAnim.BbuttonActivate;
+    }
 }
