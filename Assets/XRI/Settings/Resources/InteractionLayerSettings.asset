@@ -16,11 +16,11 @@ MonoBehaviour:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Teleport
+  - 
   - Water
   - UI
+  - Controller
   - NoSocketInteractable
-  - 
   - 
   - 
   - 

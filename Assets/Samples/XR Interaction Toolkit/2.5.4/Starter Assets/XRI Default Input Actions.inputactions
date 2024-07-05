@@ -783,18 +783,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "AButton",
+                    "name": "Primary Button",
                     "type": "Button",
-                    "id": "1db0c6ec-ad65-4f49-b89b-d43dccc98c08",
+                    "id": "a232c043-6a8d-452e-805f-6de5dab72441",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "BButton",
+                    "name": "Secondary Button",
                     "type": "Button",
-                    "id": "0f95a299-66c1-4b83-b8fa-27d0e981113f",
+                    "id": "81119969-efed-4bdd-85c6-ca9e72f7852c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -969,23 +969,23 @@
                 },
                 {
                     "name": "",
-                    "id": "a5053b38-eb2d-4b7d-81dc-37f6f76c77e2",
+                    "id": "1d03bda1-7e56-4167-81c7-ca5bfba5cda0",
                     "path": "<XRController>{LeftHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller",
-                    "action": "AButton",
+                    "groups": "",
+                    "action": "Primary Button",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "81164b38-ec1d-4ea6-a67e-8524a730c755",
+                    "id": "9b8d085d-ad75-4492-89a3-a8f74ab7411f",
                     "path": "<XRController>{LeftHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Generic XR Controller",
-                    "action": "BButton",
+                    "groups": "",
+                    "action": "Secondary Button",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1086,7 +1086,7 @@
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
                     "interactions": "Sector(directions=1)",
                     "processors": "",
-                    "groups": "Noncontinuous Move",
+                    "groups": "Continuous Move",
                     "action": "Teleport Mode Activate",
                     "isComposite": false,
                     "isPartOfComposite": false

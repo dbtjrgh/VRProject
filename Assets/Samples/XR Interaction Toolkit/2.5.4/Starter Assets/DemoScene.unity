@@ -2873,6 +2873,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interactables Sample
       objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_Variable
+      value: 
+      objectReference: {fileID: 11400000, guid: a46bdee831c527945af2ae03dbc406cb, type: 2}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateEndValue.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateEndValue.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateEndValue.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateStartValue.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateStartValue.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2054566517347051547, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+      propertyPath: m_AffordanceThemeDatum.m_ConstantValue.m_List.Array.data[4].animationStateStartValue.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2991896912978869755, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2916,18 +2948,6 @@ PrefabInstance:
     - target: {fileID: 2991896912978869755, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6559198441471240594, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6559198441471240594, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6559198441471240594, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
@@ -3361,12 +3381,16 @@ PrefabInstance:
       value: XR Interaction Setup
       objectReference: {fileID: 0}
     - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.93
+      value: 3.07
       objectReference: {fileID: 0}
     - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalRotation.w
