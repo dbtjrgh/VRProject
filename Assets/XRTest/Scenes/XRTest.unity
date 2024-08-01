@@ -638,6 +638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2054457469}
   - component: {fileID: 2054457470}
+  - component: {fileID: 2054457471}
   m_Layer: 0
   m_Name: XRTest
   m_TagString: Untagged
@@ -672,6 +673,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb8604c6638b374797cfdd4a57e65f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2054457471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054457468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0b9344932c7b94eab2942c65bc76a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldA: 0
+  fieldB: 0
+  fieldC: 
 --- !u!4 &3701197631742567
 Transform:
   m_ObjectHideFlags: 0
